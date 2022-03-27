@@ -1,3 +1,3 @@
 # usingAnnotation
 
-using annotation to link an action to a servlet instead of using xml file 
+using annotation instead of an xml file to link an action to a servlet 
