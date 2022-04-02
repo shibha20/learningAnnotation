@@ -20,8 +20,10 @@ public class annotation extends HttpServlet{
 		
 		int k = i+j; 
 		PrintWriter out = res.getWriter();
+		out.println("<html><body bgcolor='cyan'>");
 		out.println("The sum is " + k);
-			
+		out.print("</body></html>");
+
 	}
 
 }
